@@ -24,7 +24,7 @@ import {
 
 const BrulureOculaire = () => {
   return (
-    <div className="flex flex-col space-y-4">
+    <section id="Brulure" className="flex flex-col space-y-4">
       <ChapitreTitle>Brulure Oculaire</ChapitreTitle>
       <SmallTitle>{Titles[0]}</SmallTitle>
       <Paragraph>{Def}</Paragraph>
@@ -48,7 +48,7 @@ const BrulureOculaire = () => {
       <SmallTitle>{Titles[8]}</SmallTitle>
       <Paragraph>{Evolution.paragraph}</Paragraph>
       <Dots Dots={Evolution.dots} />
-    </div>
+    </section>
   );
 };
 
